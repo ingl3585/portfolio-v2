@@ -6,3 +6,11 @@
   padding: 0;
   font-family: 'Abril Fatface', cursive;
 }
+
+:root {
+  --color-primary: #5A6B54;
+  --color-secondary: #436B33;
+  --color-tertiary: #73B858;
+  --color-quaternary: #93EB71;
+  --color-quinary: #C8EEBA;
+}

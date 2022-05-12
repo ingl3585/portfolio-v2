@@ -13,7 +13,7 @@ const Nav = () => {
 	return (
 		<nav>
 			<a className='logo' href='/'>
-				ai
+				ti
 			</a>
 			<div className='hamburger-menu-container'>
 				<div
