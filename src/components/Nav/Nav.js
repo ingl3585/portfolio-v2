@@ -17,7 +17,9 @@ const Nav = () => {
 			</a>
 			<div className='hamburger-menu-container'>
 				<div
-					className={`hamburger-menu ${activeNav ? 'active' : ''}`}
+					className={`hamburger-menu ${
+						activeNav ? 'active-hamburger-menu' : ''
+					}`}
 					onClick={onClickMenu}>
 					<div className='hamburger-menu-bar-one hamburger-menu-bars'></div>
 					<div className='hamburger-menu-bar-two hamburger-menu-bars'></div>
@@ -43,7 +45,9 @@ const Nav = () => {
 			</div>
 			<div
 				className={
-					activeNavBackground ? 'active-nav-menu-background' : 'nav-menu-background'
+					activeNavBackground
+						? 'active-nav-menu-background'
+						: 'nav-menu-background'
 				}></div>
 		</nav>
 	);

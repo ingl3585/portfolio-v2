@@ -27,8 +27,8 @@ nav {
 
 .hamburger-menu {
     position: absolute;
-    top: 1.25em;
-    right: 2em;
+    top: 1.3em;
+    right: 2.1em;
     width: 30px;
     cursor: pointer;
 }
@@ -53,15 +53,15 @@ nav {
     transform: translateY(8px);
 }
 
-.active .hamburger-menu-bar-one {
+.active-hamburger-menu .hamburger-menu-bar-one {
     transform: translateY(11px) rotateZ(-45deg);
 }
 
-.active .hamburger-menu-bar-two {
+.active-hamburger-menu .hamburger-menu-bar-two {
     opacity: 0;
 }
 
-.active .hamburger-menu-bar-three {
+.active-hamburger-menu .hamburger-menu-bar-three {
     transform: translateY(5px) rotateZ(45deg);
 }
 
